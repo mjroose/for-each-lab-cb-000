@@ -9,7 +9,7 @@ var iterate = (callback) => {
   array.forEach(callback);
   return array;
 };
-//
-// var doToArray = (array, callback) => {
-//   array.forEach(callback);
-// };
+
+var doToArray = (array, callback) => {
+  array.forEach(callback);
+};
