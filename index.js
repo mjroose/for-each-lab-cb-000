@@ -4,11 +4,11 @@ var iterativeLog = (array) => {
   });
 };
 
-// var iterate = (callback) => {
-//   array = ["Homer", "Marge", "Bart", "Lisa", "Maggie";
-//   array.forEach(callback);
-//   return array;
-// };
+var iterate = (callback) => {
+  array = ["Homer", "Marge", "Bart", "Lisa", "Maggie"];
+  array.forEach(callback);
+  return array;
+};
 //
 // var doToArray = (array, callback) => {
 //   array.forEach(callback);
